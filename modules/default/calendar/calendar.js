@@ -44,7 +44,7 @@ Module.register("calendar", {
 		calendars: [
 			{
 				symbol: "calendar",
-				url: "https://www.calendarlabs.com/templates/ical/US-Holidays.ics"
+				url: "https://statsapi.web.nhl.com/api/v1/schedule?startDate=2021-05-19&endDate=2021-07-30"
 			}
 		],
 		titleReplace: {

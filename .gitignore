@@ -59,10 +59,8 @@ Temporary Items
 .Trash-*
 
 # Ignore all modules except the default modules.
-/modules/**
-!/modules/default
-!/modules/default/**
-!/modules/README.md**
+/node_modules
+/modules/**/node_modules
 
 # Ignore changes to the custom css files.
 /css/custom.css
