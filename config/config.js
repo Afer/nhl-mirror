@@ -53,6 +53,17 @@ var config = {
 			}
 		},
 		{
+			module: "MMM-cryptocurrency",
+			position: "top_left",
+			config: {
+				apikey: 'e6e22dc5-1662-45f0-84d5-5b1c2ff28823',
+				currency: ['bitcoin', 'ethereum', 'icon', 'dogecoin'],
+				headers: ['change1h'],
+				displayType: 'logoWithChanges',
+				showGraphs: true
+			}
+		},
+		/*{
 			module: 'MMM-NHL',
 			position: 'top_left',
 			config: {
@@ -61,7 +72,7 @@ var config = {
 				reloadInterval: 1800000
 			}
 		},
-		/*{
+		{
 			module: "helloworld",
 			position: "top_left"
 		},*/
