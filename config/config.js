@@ -57,7 +57,7 @@ var config = {
 			position: "top_left",
 			config: {
 				apikey: 'e6e22dc5-1662-45f0-84d5-5b1c2ff28823',
-				currency: ['bitcoin', 'ethereum', 'icon', 'dogecoin'],
+				currency: ['bitcoin', 'ethereum', 'icon', 'dogecoin', 'avalanche'],
 				headers: ['change1h'],
 				displayType: 'logoWithChanges',
 				showGraphs: true
